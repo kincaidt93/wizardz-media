@@ -18,36 +18,8 @@ img {
     
   }
   
-  div {
-  position: relative;
-  left: 800px;
-  bottom: 2150px;    
-  font-family: fantasy;  
-  color:blue;
-  font-style: bold; 
-  font-size: 30px; 
-  word-spacing: 10px;
   
-  
-  }
 
-  p {
-      color: blue;
-      text-align: center;
-      font-family: fantasy;
-      font-size: 30px;
-      position: relative; 
-      bottom: 250px; 
-      }
-  
-   h2 {
-  color:blue;
-  font-family: fantasy;
-  font-size: 80px;
-  font-style: bold;
-  position: relative; 
-  bottom: 170px; 
-   }
   
   ul {
   font-style: bold;
@@ -172,3 +144,12 @@ img {
   bottom: 240px;   
   }
   
+    
+nav { position: relative; bottom: 950px;}
+nav ul {list-style-type: none; margin: auto; text-align: center;}
+nav ul li { display: inline; padding: 30px; font-size: 60px;}
+nav ul li a { color:blue; font-family: fantasy; font-style: bold;}
+
+#selected {
+  background-color: yellow;
+}
