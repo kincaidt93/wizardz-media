@@ -21,16 +21,7 @@ img {
   
 
   
-  ul {
-  font-style: bold;
-  font-family: fantasy;
-  list-style-type: none;
-  font-size: 30px;
-  line-height: 70px; 
-  color: blue;
-  position: relative;
-  bottom: 0px;
-  }
+
 
  #programs {
     font-style: bold;
@@ -55,25 +46,7 @@ img {
         } 
   
 
-  h3 {
-  color:blue;
-  font-size: 70px;
-  font-style: bold;
-  font-family: fantasy;
-  position: relative;
-  bottom: 185px; 
-  }
-  
-  p1 {
-  color: blue;
-  line-height: 40px;
-  font-family: fantasy; 
-  margin: 10px;
-  font-size: 20px;
-  font-style: bold;
-  position: relative;
-  bottom: 280px; 
-  }
+
 
   #sonics {
     color: blue;
@@ -86,15 +59,7 @@ img {
     bottom: 265px; 
     }
   
-  h4 {
-  color:blue;
-  font-size: 70px;
-  font-style: bold;
-  font-family: fantasy;
-  position: relative;
-  bottom: 100px; 
-  
-  }
+ 
   
   h5 {
   color:blue;

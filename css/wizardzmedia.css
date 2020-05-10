@@ -1,13 +1,6 @@
 h1 { position: relative; bottom: 300px; }
 
-h1 {
-  color: blue;
-  text-align: center;
-  font-family: fantasy;
-  font-size: 140px;
 
-}
-  
 .subtitle {
   color:blue;
   font-family: fantasy;
@@ -28,14 +21,7 @@ h1 {
   bottom: 890px; 
 }
  
-.beautiful_sub {
-  color: blue;
-  text-align: center;
-  font-family: fantasy;
-  font-size: 30px;
-  position: relative; 
-  bottom: 250px; 
-}
+
 
 nav { position: absolute; top:0; right: 0;}
 nav ul {list-style-type: none; margin: auto; text-align: center;}
@@ -54,6 +40,22 @@ nav ul li a { color:blue; font-family: fantasy; font-style: bold;}
   height: auto;
 }
 
+.title {
+  color: blue;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 140px;
+}
+
+.sub1 {
+  color: blue;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 60px;
+  position: relative; 
+  bottom: 375px; 
+}
+
 .programs {
   color:blue;
   font-family: fantasy;
@@ -63,7 +65,18 @@ nav ul li a { color:blue; font-family: fantasy; font-style: bold;}
   bottom: 170px; 
    }
 
-   .impress {
+   .apps {
+    font-style: bold;
+    font-family: fantasy;
+    list-style-type: none;
+    font-size: 30px;
+    line-height: 70px; 
+    color: blue;
+    position: relative;
+    bottom: 240px;
+    }    
+
+   .title2 {
     color:blue;
     font-size: 70px;
     font-style: bold;
@@ -72,14 +85,74 @@ nav ul li a { color:blue; font-family: fantasy; font-style: bold;}
     bottom: 185px; 
     }
       
-    .apps {
-      font-style: bold;
-      font-family: fantasy;
-      list-style-type: none;
-      font-size: 30px;
-      line-height: 70px; 
-      color: blue;
-      position: relative;
-      bottom: 0px;
-      }  
-  
+      .sub2 {
+        color: blue;
+        line-height: 40px;
+        font-family: fantasy; 
+        margin: 10px;
+        font-size: 20px;
+        font-style: bold;
+        position: relative;
+        bottom: 260px; 
+        }
+
+        .title3 {
+          color:blue;
+          font-size: 70px;
+          font-style: bold;
+          font-family: fantasy;
+          position: relative;
+          bottom: 100px; 
+         }
+         
+         .sub3 {
+          color: blue;
+          line-height: 40px;
+          font-family: fantasy; 
+          margin: 10px;
+          font-size: 20px;
+          font-style: bold;
+          position: relative;
+          bottom: 205px; 
+          }
+         
+
+        .title4 {
+          color:blue;
+          font-size: 70px;
+          font-style: bold;
+          font-family: fantasy;
+          position: relative;
+          bottom: 100px; 
+         }   
+
+         .sub4 {
+          color: blue;
+          line-height: 40px;
+          font-family: fantasy; 
+          margin: 10px;
+          font-size: 20px;
+          font-style: bold;
+          position: relative;
+          bottom: 205px; 
+          }
+
+          .title5 {
+            color:blue;
+            font-size: 70px;
+            font-style: bold;
+            font-family: fantasy;
+            position: relative;
+            bottom: 100px; 
+           }     
+
+           .sub5 {
+            color: blue;
+            line-height: 40px;
+            font-family: fantasy; 
+            margin: 10px;
+            font-size: 20px;
+            font-style: bold;
+            position: relative;
+            bottom: 260px; 
+            }  

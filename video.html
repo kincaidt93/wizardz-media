@@ -3,57 +3,66 @@
 
 <head>
 <title>Video Editing</title>
-<link rel="stylesheet" type="text/css" href="css/page.css">
-
-
-
+<link rel="stylesheet" type="text/css" href="css/wizardzmedia.css">
+<script src="js/events.js"></script>
 </head>
 
 <body>
 
-<div class="topnav">
-  <a class="active" href="index.html">Home</a>
-  <a href="video.html">Video Editing</a>
-  <a href="sound.html">Sound Design</a>
-</div>
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous">
+</script>
 
-<img src="logomagic.jpg">
+<script>
+    $( document ).ready(function() {
+        var page_number = $(".nav_page_number").attr("id");
+        var page = "#page" + page_number;
+        $(page).attr("id", "selected");
+    });
+</script>
 
-<h1>Video Editing</h1>
-<p>Take your video to the next level <br>with a custom edit!</br> </p>
+  <div id="2" class="nav_page_number">
+    <nav>
+      <ul>
+        <li><a href="index.html" id="page1" onmouseover="navmouseover(this)" onmouseout="navmouseout(this)">Home</a></li>
+        <li><a href="video.html" id="page2" onmouseover="navmouseover(this)" onmouseout="navmouseout(this)">Video Editing</a></li>
+        <li><a href="sound.html" id="page3" onmouseover="navmouseover(this)" onmouseout="navmouseout(this)">Sound Design</a></li>
+      </ul>
+    </nav>
+  </div>
+
+<img class="wmicon" src="logomagic.jpg">
+
+<h1 class="title">Video Editing</h1>
+<p class ="sub1">Take your video to the next level <br>with a custom edit!</br> </p>
 
 
-<h2>Programs Include:</h2>
+<h2 class="programs">Programs Include:</h2>
 
-  <ul id= "videoprograms">
+  <ul class ="apps">
     <li>Final Cut Pro</li>
     <li>Adobe Premier</li>
     <li> Adobe After Effects </li>
   </ul>
   
-  <h3>Create Stunning Animations:</h3>
-<p1><br>Want to add beautiful animations and effects to your content? Look no further than the Wizardz!</br>
+  <h3 class="title2">Create Stunning Animations:</h3>
+<p1 class ="sub2"><br>Want to add beautiful animations and effects to your content? Look no further than the Wizardz!</br>
    We offer a wide array of editing options for those looking to give their content a little extra magic!</p1>
 
- <h4>Make it Glow!</h4>
-  <p2>Experience custom, glowing frame by frame glow effects in your video,<br> 
+ <h4 class ="title3">Make it Glow!</h4>
+  <p2 class="sub3">Experience custom, glowing frame by frame glow effects in your video,<br> 
     The Wizardz will work with you to make your vision a reality!</p2>
 
-  <h5>Make it Pop!</h5>  
-  <p3>Add breath taking animations to your work! Choose between 1000s of
+  <h5 class ="title4">Make it Pop!</h5>  
+  <p3 class="sub4">Add breath taking animations to your work! Choose between 1000s of
     effects, colors, styles and much more!<br> Work with your wizard to get exactly what your looking for!</p3>
 
-<h6>Make it Legit!</h6>
-<p4>Want a professional polish on your project? The Wizardz know how! 
+<h6 class ="title5">Make it Legit!</h6>
+<p4 class="sub5">Want a professional polish on your project? The Wizardz know how! 
 <br> Whether you need help with video production, the editing process or any kind of special effects,
 <br> there's no better guide than a Wizard!</p4>
-
-
-<div class="topnav">
-  <a class="active" href="index.html">Home</a>
-  <a href="video.html">Video Editing</a>
-  <a href="sound.html">Sound Design</a>
-</div>
 
 
 
