@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/wizardzmedia.css">
+<script src="js/events.js"></script>
+</head>
+
+<body>
+
+  <a class="wizardz_id_body" id="1">
+    
+  <script>
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous">
+  </script>
+
+  <script>
+      $( document ).ready(function() {
+          var mybodyid = $("wizardz_id_body").attr("id");
+          var myartid = "#page" + mybodyid;
+          console.log("mybodyid is " + mybodyid);
+          console.log("myartid is " + myartid);
+          $(myartid).attr("id", "selected");
+      });
+  </script>
+
+<h1><img src="logo.jpg"></h1>
+
+<h2>Wizardzmedia.com</h2>
+<p>Make it Magic!</p>
+   
+<div class="topnav">
+  <a class="active" id="page1" href="index.html" onmouseover="navmouseover(this)" onmouseout="navmouseout(this)">Home</a>
+  <a href="video.html" id="page2" onmouseover="navmouseover(this)" onmouseout="navmouseout(this)" >Video Editing</a>
+  <a href="sound.html" id="page3" onmouseover="navmouseover(this)" onmouseout="navmouseout(this)">Sound Design</a>
+</div>
+
+
+</body>
+
+
+</body>
+</html>

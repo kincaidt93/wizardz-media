@@ -1,0 +1,190 @@
+img {
+    position: relative; 
+    bottom: 100px; 
+    right: 25px; 
+    width: 25%;
+    height: auto;
+    
+  }
+  
+    h1 {
+    color: blue;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 140px;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 200px; 
+    
+  }
+  
+  div {
+  position: relative;
+  left: 800px;
+  bottom: 2150px;    
+  font-family: fantasy;  
+  color:blue;
+  font-style: bold; 
+  font-size: 30px; 
+  word-spacing: 10px;
+  
+  
+  }
+
+  #selected {
+    position: relative;
+    left: 800px;
+    bottom: 2150px;    
+    font-family: fantasy;  
+    color:blue;
+    font-style: bold; 
+    font-size: 30px; 
+    word-spacing: 10px;
+    background-color: red;
+    
+ }
+
+
+
+  
+  p {
+      color: blue;
+      text-align: center;
+      font-family: fantasy;
+      font-size: 30px;
+      position: relative; 
+      bottom: 250px; 
+      }
+  
+   h2 {
+  color:blue;
+  font-family: fantasy;
+  font-size: 80px;
+  font-style: bold;
+  position: relative; 
+  bottom: 170px; 
+   }
+  
+  ul {
+  font-style: bold;
+  font-family: fantasy;
+  list-style-type: none;
+  font-size: 30px;
+  line-height: 70px; 
+  color: blue;
+  position: relative;
+  bottom: 0px;
+  }
+
+ #programs {
+    font-style: bold;
+    font-family: fantasy;
+    list-style-type: none;
+    font-size: 30px;
+    line-height: 70px; 
+    color: blue;
+    position: relative;
+    top: 240px;
+    }
+
+#videoprograms {
+        font-style: bold;
+        font-family: fantasy;
+        list-style-type: none;
+        font-size: 30px;
+        line-height: 70px; 
+        color: blue;
+        position: relative;
+        bottom: 250px;
+        } 
+  
+
+  h3 {
+  color:blue;
+  font-size: 70px;
+  font-style: bold;
+  font-family: fantasy;
+  position: relative;
+  bottom: 185px; 
+  }
+  
+  p1 {
+  color: blue;
+  line-height: 40px;
+  font-family: fantasy; 
+  margin: 10px;
+  font-size: 20px;
+  font-style: bold;
+  position: relative;
+  bottom: 280px; 
+  }
+
+  #sonics {
+    color: blue;
+    line-height: 40px;
+    font-family: fantasy; 
+    margin: 10px;
+    font-size: 20px;
+    font-style: bold;
+    position: relative;
+    bottom: 265px; 
+    }
+  
+  h4 {
+  color:blue;
+  font-size: 70px;
+  font-style: bold;
+  font-family: fantasy;
+  position: relative;
+  bottom: 100px; 
+  
+  }
+  
+  h5 {
+  color:blue;
+  font-family: fantasy; 
+  font-size: 70px;
+  font-style: bold;
+  position: relative; 
+  bottom: 50px; 
+  }
+  
+  h6 {
+  color:blue;
+  font-size: 50px;
+  font-style: bold;
+  }
+  
+  p2 {
+  font-family: fantasy;
+  font-size: 20px;
+  color: blue;
+  position: relative; 
+  bottom: 180px; 
+  }
+  
+  p3 {
+  font-family: fantasy;
+  font-size: 20px;
+  color: blue;
+  position: relative; 
+  bottom: 180px;   
+  }
+  
+  h6 {
+  color:blue;
+  font-family: fantasy; 
+  font-size: 70px;
+  font-style: bold;
+  position: relative; 
+  bottom: 70px; 
+  }
+  
+  p4 {
+  font-family: fantasy;
+  font-size: 20px;
+  color: blue;
+  position: relative; 
+  bottom: 240px;   
+  }
+  

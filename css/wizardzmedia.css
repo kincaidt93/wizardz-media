@@ -1,0 +1,55 @@
+h1 {
+    position: relative;
+    bottom: 300px; 
+    right: 100px;
+   
+  }
+  
+      h2 {
+      color:blue;
+      font-family: fantasy;
+      font-size: 95px;
+      margin-bottom: 20px;
+      position: relative; 
+      bottom: 800px; 
+      left: 365px; 
+      font-style: bold;
+      
+  }
+  
+  p {
+      color: blue;
+      font-family: fantasy;
+      font-size: 70px;
+      position: relative; 
+      bottom: 890px; 
+      left: 545px;
+    
+  
+    }
+  
+  div {
+  font-family: fantasy; 
+  color:blue;
+  font-style: bold; 
+  font-size: 50px; 
+  position: relative;
+  bottom: 890px; 
+  left: 365px;
+  word-spacing: 10px;
+  }  
+
+
+  #selected {
+    position: relative;
+    left: 800px;
+    bottom: 2150px;    
+    font-family: fantasy;  
+    color:blue;
+    font-style: bold; 
+    font-size: 30px; 
+    word-spacing: 10px;
+    background-color: red;
+    
+ }
+ 
