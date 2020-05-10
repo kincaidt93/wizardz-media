@@ -31,22 +31,6 @@ img {
   
   }
 
-  #selected {
-    position: relative;
-    left: 800px;
-    bottom: 2150px;    
-    font-family: fantasy;  
-    color:blue;
-    font-style: bold; 
-    font-size: 30px; 
-    word-spacing: 10px;
-    background-color: red;
-    
- }
-
-
-
-  
   p {
       color: blue;
       text-align: center;
