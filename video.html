@@ -4,24 +4,68 @@
 <head>
 <title>Video Editing</title>
 <link rel="stylesheet" type="text/css" href="css/wizardzmedia.css">
-<script src="js/events.js"></script>
-</head>
-
-<body>
+  <script src="js/events.js"></script>
 
   <script
   src="https://code.jquery.com/jquery-3.5.1.js"
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
   crossorigin="anonymous">
-</script>
+  </script>
 
-<script>
+  <script type="text/javascript" src="js/plugins/rtop.videoPlayer.1.0.2.min.js"></script>
+
+  <link rel="stylesheet" href="css/plugins/rtop.videoPlayer.1.0.2.min.css" />
+</head>
+
+<body>
+  <script>
     $( document ).ready(function() {
         var page_number = $(".nav_page_number").attr("id");
         var page = "#page" + page_number;
         $(page).attr("id", "selected");
     });
-</script>
+  </script>
+
+  <script>
+    $( document ).ready(function() {
+      var myPlayer = $('#vid1').RTOP_VideoPlayer({
+          showControls: true,
+          showControlsOnHover: true,
+          controlsHoverSensitivity: 3000,
+          showScrubber: true,
+          showTimer: false,
+          showPlayPauseBtn: true,
+          showSoundControl: false,
+          showFullScreen: false,
+          keyboardControls: true,
+      });
+
+      var myPlayer = $('#vid2').RTOP_VideoPlayer({
+          showControls: true,
+          showControlsOnHover: true,
+          controlsHoverSensitivity: 3000,
+          showScrubber: true,
+          showTimer: false,
+          showPlayPauseBtn: true,
+          showSoundControl: false,
+          showFullScreen: false,
+          keyboardControls: true,
+      });
+
+      var myPlayer = $('#vid3').RTOP_VideoPlayer({
+          showControls: true,
+          showControlsOnHover: true,
+          controlsHoverSensitivity: 3000,
+          showScrubber: true,
+          showTimer: false,
+          showPlayPauseBtn: true,
+          showSoundControl: false,
+          showFullScreen: false,
+          keyboardControls: true,
+      });
+    });
+  </script>
+
 
   <div id="2" class="nav_page_number">
     <nav>
@@ -33,25 +77,25 @@
     </nav>
   </div>
 
-<img class="wmicon" src="logomagic.jpg">
+  <img class="wmicon" src="logomagic.jpg">
 
-<h1 class="title">Video Editing</h1>
-<p class ="sub1">Take your video to the next level <br>with a custom edit!</br> </p>
+  <h1 class="title">Video Editing</h1>
+  <p class ="sub1">Take your video to the next level <br>with a custom edit!</br> </p>
 
 
-<h2 class="programs">Programs Include:</h2>
+  <h2 class="programs">Programs Include:</h2>
 
   <ul class ="apps">
     <li>Final Cut Pro</li>
     <li>Adobe Premier</li>
     <li> Adobe After Effects </li>
   </ul>
-  
-  <h3 class="title2">Create Stunning Animations:</h3>
-<p1 class ="sub2"><br>Want to add beautiful animations and effects to your content? Look no further than the Wizardz!</br>
-   We offer a wide array of editing options for those looking to give their content a little extra magic!</p1>
 
- <h4 class ="title3">Make it Glow!</h4>
+  <h3 class="title2">Create Stunning Animations:</h3>
+  <p1 class ="sub2"><br>Want to add beautiful animations and effects to your content? Look no further than the Wizardz!</br>
+    We offer a wide array of editing options for those looking to give their content a little extra magic!</p1>
+
+  <h4 class ="title3">Make it Glow!</h4>
   <p2 class="sub3">Experience custom, glowing frame by frame glow effects in your video,<br> 
     The Wizardz will work with you to make your vision a reality!</p2>
 
@@ -59,13 +103,34 @@
   <p3 class="sub4">Add breath taking animations to your work! Choose between 1000s of
     effects, colors, styles and much more!<br> Work with your wizard to get exactly what your looking for!</p3>
 
-<h6 class ="title5">Make it Legit!</h6>
-<p4 class="sub5">Want a professional polish on your project? The Wizardz know how! 
-<br> Whether you need help with video production, the editing process or any kind of special effects,
-<br> there's no better guide than a Wizard!</p4>
+  <h6 class ="title5">Make it Legit!</h6>
+  <p4 class="sub5">Want a professional polish on your project? The Wizardz know how! 
+  <br> Whether you need help with video production, the editing process or any kind of special effects,
+  <br> there's no better guide than a Wizard!</p4>
 
+  <h7 class="title6">Some Examples</h7>
 
+  <div id="vid1"
+    class="video-example"
+    data-poster="video-examples/vid1.jpg"
+     data-video="video-examples/vid1.mp4" 
+     data-type="video/mp4" 
+  ></div>
+
+  <div id="vid2" 
+    class="video-example"
+    data-poster="video-examples/vid2.jpg"
+     data-video="video-examples/vid2.mp4" 
+     data-type="video/mp4" 
+  ></div>
+
+  <div id="vid3" 
+    class="video-example"
+    data-poster="video-examples/vid3.jpg"
+     data-video="video-examples/vid3.mp4" 
+     data-type="video/mp4" 
+  ></div>
 
 </body>    
 
-</html>
+</html>`
