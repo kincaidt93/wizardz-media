@@ -3,7 +3,7 @@ h1 { position: relative; bottom: 300px; }
 nav { position: absolute; top:0; right: 0;}
 nav ul {list-style-type: none; margin: auto; text-align: center;}
 nav ul li { display: inline; padding: 30px; font-size: 60px;}
-nav ul li a { color:blue; font-family: fantasy; font-style: bold;}
+nav ul li a { color:blue; font-family: fantasy; }
 
 #selected { background-color: yellow;}
 
@@ -25,7 +25,7 @@ height: auto;
 .subtitle {
 color:blue;
 font-size: 70px;
-font-style: bold;
+
 font-family: fantasy;
 position: relative;
 bottom: 185px; 
@@ -39,7 +39,7 @@ margin-bottom: 20px;
 text-align: center;
 position: relative;
 bottom: 800px; 
-font-style: bold;
+
 }
 
 .slogan {
@@ -64,13 +64,13 @@ bottom: 375px;
 color:blue;
 font-family: fantasy;
 font-size: 80px;
-font-style: bold;
+
 position: relative; 
 bottom: 170px; 
 }
 
 .apps {
-font-style: bold;
+
 font-family: fantasy;
 list-style-type: none;
 font-size: 30px;
@@ -86,7 +86,7 @@ line-height: 40px;
 font-family: fantasy; 
 margin: 10px;
 font-size: 20px;
-font-style: bold;
+
 position: relative;
 bottom: 260px; 
 }
