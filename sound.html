@@ -1,80 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Sound Design</title>
-<link rel="stylesheet" type="text/css" href="css/wizardzmedia.css">
-<script src="js/events.js"></script>
+  <title>Sound Design</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="css/wizardzmedia.css">
+  <script src="js/events.js"></script>
 </head>
-<body>
 
-  <img class="wmicon" src="logomagic.jpg">
+<body>
+  <img class="wmicon" src="logomagic.jpg" alt="Wiz Logo">
 
   <script
   src="https://code.jquery.com/jquery-3.5.1.js"
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
   crossorigin="anonymous">
-</script>
+  </script>
 
-<script>
-    $( document ).ready(function() {
-        var page_number = $(".nav_page_number").attr("id");
-        var page = "#page" + page_number;
-        $(page).attr("id", "selected");
-    });
-</script>
+  <script>
+      $( document ).ready(function() {
+          var page_number = $(".nav_page_number").attr("id");
+          var page = "#page" + page_number;
+          $(page).attr("id", "selected");
+      });
+  </script>
 
-   
- 
-<h1 class="title">Sound Design</h1>
-<p class="sub1">Create Beautiful Sound!</p>
-
+  <h1 class="title">Sound Design</h1>
+  <p class="subslogan">Create Beautiful Sound!</p>
 
   <h2 class="programs">Programs Include:</h2>
-
   <ul class= "apps">
     <li>Logic Pro</li>
     <li>Ableton Live</li>
     <li>Adobe Audition</li>
   </ul>
 
-<h3 class="title2">Impress with crystal clear audio:</h3>
-<p1 class="sub2">For all your sonic needs, The Wizardz are here to help your project to be all it can be!</p1>
+  <h3 class="subtitle">Impress with crystal clear audio:</h3>
+  <div class="description">For all your sonic needs, The Wizardz are here to help your project to be all it can be!</div>
 
-<h4 class="title3">Make it Smooth!</h4>
-<p2 class ="sub3">Sound your best with beautiful crystal clear audio. 
-  <br>Whether your creating a podcast, a professional presentation or even an original song. 
-  <br>The Wizardz will mix your track so you sound as amazing as you are! </p2>
+  <h3 class="subtitle">Make it Smooth!</h3>
+  <div class ="description">Sound your best with beautiful crystal clear audio. 
+    <br>Whether your creating a podcast, a professional presentation or even an original song. 
+    <br>The Wizardz will mix your track so you sound as amazing as you are! </div>
 
-<h4 class="title4">Make it Bump!</h4>  
-<p3 class="sub4">Need an original song for your project? Got a tune stuck in your head that you need to bring to life?
-<br> Tell the Wizardz what you need and we'll work our magic! </p3>
+  <h3 class="subtitle">Make it Bump!</h3>  
+  <div class="description">Need an original song for your project? Got a tune stuck in your head that you need to bring to life?
+  <br> Tell the Wizardz what you need and we'll work our magic! </div>
 
-<div id="3" class="nav_page_number">
-  <nav>
-    <ul>
-      <li><a href="index.html" id="page1" onmouseover="navmouseover(this)" onmouseout="navmouseout(this)">Home</a></li>
-      <li><a href="video.html" id="page2" onmouseover="navmouseover(this)" onmouseout="navmouseout(this)">Video Editing</a></li>
-      <li><a href="sound.html" id="page3" onmouseover="navmouseover(this)" onmouseout="navmouseout(this)">Sound Design</a></li>
-    </ul>
-  </nav>
-</div>
+  <div id="3" class="nav_page_number">
+    <nav>
+      <ul>
+        <li><a href="index.html" id="page1" onmouseover="navmouseover(this)" onmouseout="navmouseout(this)">Home</a></li>
+        <li><a href="video.html" id="page2" onmouseover="navmouseover(this)" onmouseout="navmouseout(this)">Video Editing</a></li>
+        <li><a href="sound.html" id="page3" onmouseover="navmouseover(this)" onmouseout="navmouseout(this)">Sound Design</a></li>
+      </ul>
+    </nav>
+  </div>
 
-<h7 class="title6">Some Examples</h7>
-
-<div class="audio-description">
-  Stefans Quest
-  <audio controls>
-    <source src="audio-examples/stefans-quest-clip.mp3" type="audio/mpeg">
-  </audio>
-</div>
-
-<div class="audio-description">
-  Vitamin T
-  <audio controls>
-    <source src="audio-examples/vitamin-t.mp3" type="audio/mpeg">
-  </audio>
-</div>
-
+  <h3 class="subtitle">Some Examples</h3>
+  <div class="audio-description">
+    Stefans Quest
+    <audio controls>
+      <source src="audio-examples/stefans-quest-clip.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+  <div class="audio-description">
+    Vitamin T
+    <audio controls>
+      <source src="audio-examples/vitamin-t.mp3" type="audio/mpeg">
+    </audio>
+  </div>
 
 </body>   
 

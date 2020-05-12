@@ -1,58 +1,63 @@
 h1 { position: relative; bottom: 300px; }
 
-.subtitle {
-  color:blue;
-  font-family: fantasy;
-  font-size: 95px;
-  margin-bottom: 20px;
-  text-align: center;
-  position: relative;
-  bottom: 800px; 
-  font-style: bold;
-}
-
-.slogan {
-  color: blue;
-  font-family: fantasy;
-  font-size: 70px;
-  position: relative; 
-  text-align: center;
-  bottom: 890px; 
-}
- 
-
-
 nav { position: absolute; top:0; right: 0;}
 nav ul {list-style-type: none; margin: auto; text-align: center;}
 nav ul li { display: inline; padding: 30px; font-size: 60px;}
 nav ul li a { color:blue; font-family: fantasy; font-style: bold;}
 
-#selected {
-  background-color: yellow;
+#selected { background-color: yellow;}
+
+.title {
+color: blue;
+text-align: center;
+font-family: fantasy;
+font-size: 140px;
 }
 
 .wmicon {
-  position: relative; 
-  bottom: 100px; 
-  right: 25px; 
-  width: 25%;
-  height: auto;
+position: relative; 
+bottom: 100px; 
+right: 25px; 
+width: 25%;
+height: auto;
 }
 
-.title {
-  color: blue;
-  text-align: center;
-  font-family: fantasy;
-  font-size: 140px;
+.subtitle {
+color:blue;
+font-size: 70px;
+font-style: bold;
+font-family: fantasy;
+position: relative;
+bottom: 185px; 
 }
 
-.sub1 {
-  color: blue;
-  text-align: center;
-  font-family: fantasy;
-  font-size: 60px;
-  position: relative; 
-  bottom: 375px; 
+.web_address_title {
+color:blue;
+font-family: fantasy;
+font-size: 95px;
+margin-bottom: 20px;
+text-align: center;
+position: relative;
+bottom: 800px; 
+font-style: bold;
+}
+
+.slogan {
+color: blue;
+font-family: fantasy;
+font-size: 70px;
+position: relative; 
+text-align: center;
+bottom: 890px; 
+}
+
+.subslogan {
+color: blue;
+text-align: center;
+font-family: fantasy;
+font-size: 60px;
+position: relative; 
+bottom: 375px; 
 }
 
 .programs {
@@ -75,87 +80,7 @@ position: relative;
 bottom: 240px;
 }    
 
-.title2 {
-color:blue;
-font-size: 70px;
-font-style: bold;
-font-family: fantasy;
-position: relative;
-bottom: 185px; 
-}
-
-.sub2 {
-  color: blue;
-  line-height: 40px;
-  font-family: fantasy; 
-  margin: 10px;
-  font-size: 20px;
-  font-style: bold;
-  position: relative;
-  bottom: 260px; 
-  }
-
-.title3 {
-color:blue;
-font-size: 70px;
-font-style: bold;
-font-family: fantasy;
-position: relative;
-bottom: 100px; 
-}
-
-.sub3 {
-color: blue;
-line-height: 40px;
-font-family: fantasy; 
-margin: 10px;
-font-size: 20px;
-font-style: bold;
-position: relative;
-bottom: 205px; 
-}
-
-
-.title4 {
-color:blue;
-font-size: 70px;
-font-style: bold;
-font-family: fantasy;
-position: relative;
-bottom: 100px; 
-}   
-
-.sub4 {
-color: blue;
-line-height: 40px;
-font-family: fantasy; 
-margin: 10px;
-font-size: 20px;
-font-style: bold;
-position: relative;
-bottom: 205px; 
-}
-
-.title5 {
-color:blue;
-font-size: 70px;
-font-style: bold;
-font-family: fantasy;
-position: relative;
-bottom: 100px; 
-}     
-
-.title6 {
-color:blue;
-font-size: 70px;
-font-style: bold;
-font-family: fantasy;
-position: relative;
-bottom: 100px; 
-text-align: center;
-}
-
-.sub5 {
+.description {
 color: blue;
 line-height: 40px;
 font-family: fantasy; 
@@ -164,4 +89,4 @@ font-size: 20px;
 font-style: bold;
 position: relative;
 bottom: 260px; 
-}  
+}
