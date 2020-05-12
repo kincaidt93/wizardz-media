@@ -90,3 +90,10 @@ font-size: 20px;
 position: relative;
 bottom: 260px; 
 }
+
+.audio-description {
+color: blue;
+margin: 10px;
+font-family: fantasy; 
+font-size: 20px;
+}
